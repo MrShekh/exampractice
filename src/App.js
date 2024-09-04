@@ -1,8 +1,9 @@
 import React from'react'
 import ChildB from './components/ChildB'
+import Counter from './components/Counter';
 
 function App(){
   return(
-    <ChildB/>
+    <Counter/>
   )
 }export default App;
