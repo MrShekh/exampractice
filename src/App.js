@@ -1,15 +1,8 @@
 import React from'react'
-import ChildA from './components/ChildA';
+import ChildB from './components/ChildB'
 
 function App(){
-  const carbrand='BMW'
-  const carcolor='red'
-
   return(
-    <>
-    <p>Car details</p>
-    <ChildA brand={carbrand} color={carcolor}/>
-
-    </>
+    <ChildB/>
   )
 }export default App;
